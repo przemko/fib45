@@ -22,7 +22,9 @@ W każdym z powyższych języków napisano kod obliczający wyrazy ciągu Fibona
 
 > Fib(0) = 1; Fib(1) = 1; Fib(n) = Fib(n-1)+Fib(n-2), dla n > 1
 
-Poniżej zamieszczono wykres czasu (w sekundach) obliczenia wartości Fib(45).
+Wybrano testowanie szybkości na przykładzie tej funkcji, gdyż wraz ze wzrostem wartości _n_, wykładniczo szybko rośnie liczba operacji arytmetycznych i wywołań rekurencyjnych potrzebnych do obliczenia wartości _Fib_(_n_).
+ 
+Poniżej zamieszczono wykres czasu (w sekundach) obliczenia wartości _Fib_(45).
 
  ![wykres](fib45_opt.png "Czas obliczenia Fib(45) w sekundach") 
 
