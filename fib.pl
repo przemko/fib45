@@ -1,5 +1,3 @@
-% swipl -L2G
-
 fib(0, 1).
 fib(1, 1).
 fib(N, F) :-
