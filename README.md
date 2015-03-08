@@ -74,6 +74,8 @@ W plikach **fib2.c** i **fib2.pl** znajdują się odpowiednie kody.
 
 W pliku **fib2.txt.gz** znajdują się wartości _Fib_(10), _Fib_(100), _Fib_(1000), _Fib_(10000), _Fib_(100000) i _Fib_(1000000) policzone programem **fib2.pl** napisanym w **Prologu**. Przy każdym wyniku można znaleźć liczbę wykonanych kroków wnioskowania i czas obliczenia.
 
+Możliwe jest dalsze obniżanie liczby operacji aż do O(log _n_)  ale wymaga to zastosowania prostej sztuczki z algebry liniowej (podnoszenie kwadratowej macierzy [1 1; 1 0] do n-tej potęgi).
+
 ###Środowisko
 Obliczenia przeprowadzano pod systemem **OS X Yosemite** na notebooku **MacBook Pro** wyposażonym w procesor **2,6 GHz Intel Core i5**. 
 
