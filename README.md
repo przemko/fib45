@@ -94,5 +94,5 @@ Wersja **3.2.5**, kompilator **pypy3 2.4.0**.
 ####Scheme
 Wersja **9.2**.
 
-#####Swift
+####Swift
 Kompilator **swiftc 1.2** z opcją **-Ounchecked**. Póki co ta wersja języka dostępna jest w deweloperskim środowisku **Xcode 6.3 beta**.
