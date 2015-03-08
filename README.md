@@ -68,7 +68,7 @@ Funkcję rekurencyjną można zapisać następująco:
 
 Ma ona czasową złożoność obliczeniową rzędu O(_n_ ^ 2) ponieważ są cztery wywołania dla o połowę mniejszego parametru.
 
-Zauważając, że wartości _k_ i _n_ - _k_ oraz _k_ - 1 i _n_ - _k_ - 1 są dla _k_ = _n_ **div** 2 albo równe albo prawie równe, można zmniejszyć liczbę wywołań rekurencyjnych w powyższym przykładzie z czterech do dwóch. Uzyska się wtedy czasową złożoność obliczeniową rzędu O(_n_).
+Zauważając, że wartości _k_ i _n_ - _k_ oraz _k_ - 1 i _n_ - _k_ - 1 są dla _k_ = _n_ **div** 2 albo równe albo prawie równe, można zmniejszyć liczbę wywołań rekurencyjnych w powyższym przykładzie z czterech do dwóch, uzyskując czasową złożoność obliczeniową rzędu O(_n_).
 
 W plikach **fib2.c** i **fib2.pl** znajdują się odpowiednie kody. 
 
